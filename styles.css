@@ -7,13 +7,14 @@
 }
 body.about-class {
     height: 100vh;
-    background-color: gray;
-    background-image: url(aboutmebg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
+    background-color: rgb(190, 189, 189);
+
 }
+
+.iframe-container {
+    align-items: right;
+}
+
 
 body.index-class {
     height: 100vh;
@@ -58,7 +59,7 @@ body.index-class {
     text-align: center;
     font-size: 7.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(223, 57, 223);
+    color: rgb(164, 14, 117);
     text-shadow: #474747 3px 5px 2px;
 
 }
@@ -67,7 +68,7 @@ body.index-class {
     font-size: 2.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(173, 53, 135);
+    color: rgb(164, 14, 117);
     text-shadow: #474747 3px 5px 2px;
 }
 
@@ -83,6 +84,29 @@ body.index-class {
     font-size: 1.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(173, 53, 135);
-    text-shadow: white 1px 1px 1px;
+    color: rgb(164, 14, 117);
+    text-shadow: #959393 1px 1px 1px;
 }
+
+.contact-icons .contact-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: rgb(164, 14, 117);
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .contact-icons .contact-icon:last-child {
+    margin-right: 0;
+  }
+  .contact-icons .contact-icon:hover {
+    background-color: rgb(230, 34, 167);
+  }
+
+
+
+  
