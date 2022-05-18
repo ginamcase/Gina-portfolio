@@ -123,7 +123,7 @@ body.index-class {
 }
 
 .btn:active{
-    box-shadow: 0 0.15em #959393,0 0.12em .15em #474747 .7 inset;
+    box-shadow: 0 1em #959393,0 0.12em .15em #474747 .7 inset;
 }
 
 .btn-medium {
@@ -133,7 +133,7 @@ body.index-class {
 
 .btn:hover{
     background: black;
-    color: purple;
+    color: rgb(96, 10, 123);
     transition: .2s all ease-in-out;
 }
 
@@ -145,7 +145,7 @@ body.projects-class {
     background-image: url(gradient.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: justify;
     height: 100vh;
 }
 .projects-class h1{
