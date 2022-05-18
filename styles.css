@@ -108,5 +108,75 @@ body.index-class {
   }
 
 
+.btn{
+    display: table;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .02;
+    font-weight: 700;
+    color: yellow;
+    background-color: black;
+    border-radius: .25em;
+    margin-bottom: 1em;
+    transition: .2s all ease-in-out;
+    box-shadow: 0 0.2em #959393,0 0.12em .15em #474747 .5 inset;
+}
 
-  
+.btn:active{
+    box-shadow: 0 0.15em #959393,0 0.12em .15em #474747 .7 inset;
+}
+
+.btn-medium {
+    font-size: 2em;
+    padding: 1em 1em;
+}
+
+.btn:hover{
+    background: black;
+    color: purple;
+    transition: .2s all ease-in-out;
+}
+
+
+
+body.projects-class {
+    height: 100vh;
+    background-color: gray;
+    background-image: url(gradient.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.projects-class h1{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+    text-shadow: #474747 3px 5px 2px;
+
+}
+
+.projects-class h2{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: yellow;
+    text-shadow: #474747 3px 5px 2px;
+}
+
+.projects-class h3{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: yellow;
+    text-shadow: #959393 1px 1px 1px;
+}
+
+.projects-class p{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: yellow;
+    text-shadow: #959393 1px 1px 1px;
+}
